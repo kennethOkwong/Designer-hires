@@ -32,7 +32,7 @@ Major app screens are shown below:
 <img src="./lib/readMe_screenshots/mobile.png" width="324" height="576">
 
 ### Tablet Screen
-<img src="./lib/readMe_screenshots/tablet.png" width="630.4" height="752">
+<img src="./lib/readMe_screenshots/tablet.png" >
 
 ### Desktop Screen
 <img src="./lib/readMe_screenshots/desktop.png" width="756" height="756">
