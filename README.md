@@ -1,14 +1,14 @@
 # Meals App
 
-Welcome Designer, a responsive flutter application.
+Designer hires, a responsive flutter application.
 
 ## Description
-The meals app is a one page flutter application built to demonstrate the knowledge of responsive app.
-It adapts to change in screen sizes.
+The app is a one-page flutter application built to sharpen the knowledge of building responsive apps.
+It adapts to changes in screen sizes.
 
 ## Flutter concepts demonstrated in the project
 1. Responsive design
-2. Working with json input
+2. Working with JSON input
 3. App theming
 4. App theming
 5. Custom Widgets
@@ -29,11 +29,11 @@ Run the app to confirm that everything works
 Major app screens are shown below:
 
 ### Mobile Screen
-<img src="./readMe_screenshots/mobile.png" width="324" height="576">
+<img src="./lib/readMe_screenshots/mobile.png" width="324" height="576">
 
 ### Tablet Screen
-<img src="./readMe_screenshots/tablet.png">
+<img src="./lib/readMe_screenshots/tablet.png">
 
 ### Desktop Screen
-<img src="./readMe_screenshots/desktop.png">
+<img src="./lib/readMe_screenshots/desktop.png">
 
