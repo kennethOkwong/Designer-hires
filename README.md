@@ -1,4 +1,4 @@
-# Meals App
+# Designer hires
 
 Designer hires, a responsive flutter application.
 
