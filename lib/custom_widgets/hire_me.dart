@@ -4,40 +4,40 @@ class HireMe extends StatelessWidget {
   const HireMe({
     super.key,
     required this.textStyle,
+    this.height,
   });
 
   final TextStyle textStyle;
+  final double? height;
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return Stack(
       children: [
-        SizedBox(
-          child: Card(
-            child: SizedBox(
-              width: double.infinity,
-              child: Padding(
-                padding: const EdgeInsets.all(10.0),
-                child: Stack(
-                  alignment: Alignment.bottomRight,
-                  children: [
-                    Text(
-                      'Bringing Your Ideas To Life Through UI Design.',
-                      style: textStyle,
-                    ),
-                    ElevatedButton(
-                      onPressed: () {},
-                      child: const Text(
-                        'Hire Me 👋',
-                        // style: TextStyle(fontSize: 20),
-                      ),
-                    ),
-                  ],
-                ),
+        Card(
+          child: SizedBox(
+            width: double.infinity,
+            height: height,
+            child: Padding(
+              padding: const EdgeInsets.all(10.0),
+              child: Text(
+                'Bringing Your Ideas To Life Through UI Design.',
+                style: textStyle,
               ),
             ),
           ),
         ),
+        Positioned(
+          bottom: 10,
+          right: 10,
+          child: ElevatedButton(
+            onPressed: () {},
+            child: const Text(
+              'Hire Me 👋',
+              // style: TextStyle(fontSize: 20),
+            ),
+          ),
+        )
       ],
     );
   }

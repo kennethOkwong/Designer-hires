@@ -16,7 +16,7 @@ ThemeData customThemeData = ThemeData.dark().copyWith(
   textTheme: const TextTheme().copyWith(
     titleLarge: const TextStyle(fontSize: 35),
     titleMedium: const TextStyle(fontSize: 35),
-    titleSmall: const TextStyle(fontSize: 25),
+    titleSmall: const TextStyle(fontSize: 20),
     labelLarge: const TextStyle(fontSize: 15),
     labelMedium: const TextStyle(fontSize: 15),
     labelSmall: const TextStyle(fontSize: 10),

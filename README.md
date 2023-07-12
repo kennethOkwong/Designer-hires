@@ -1,18 +1,39 @@
-# designer_hires
+# Meals App
 
-A new Flutter project for an Application for .
+Welcome Designer, a responsive flutter application.
+
+## Description
+The meals app is a one page flutter application built to demonstrate the knowledge of responsive app.
+It adapts to change in screen sizes.
+
+## Flutter concepts demonstrated in the project
+1. Responsive design
+2. Working with json input
+3. App theming
+4. App theming
+5. Custom Widgets
 
 ## Getting Started
+The first step to testing or running this app is getting the code
 
-This project is a starting point for a Flutter application.
+    git clone https://github.com/kennethOkwong/Designer-hires.git
+    .
+    .
+    flutter pub get
 
-A few resources to get you started if this is your first Flutter project:
+Run the app to confirm that everything works
+    
+    flutter run
 
-- [designer_hire](#getting-started)
+## App Features
+Major app screens are shown below:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Mobile Screen
+<img src="./readMe_screenshots/mobile.png" width="324" height="576">
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Tablet Screen
+<img src="./readMe_screenshots/tablet.png">
+
+### Desktop Screen
+<img src="./readMe_screenshots/desktop.png">
+

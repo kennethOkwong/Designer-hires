@@ -5,7 +5,7 @@ import 'package:designer_hires/custom_widgets/ui_portfolio_section.dart';
 import 'package:designer_hires/custom_widgets/profile_section.dart';
 import 'package:designer_hires/custom_widgets/search_bar.dart';
 import 'package:designer_hires/models/designer.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide SearchBar;
 
 class MobileScreen extends StatelessWidget {
   const MobileScreen({
@@ -21,7 +21,10 @@ class MobileScreen extends StatelessWidget {
       child: Column(
         children: [
           const SearchBar(),
-          HireMe(textStyle: Theme.of(context).textTheme.titleSmall!),
+          HireMe(
+            height: 90,
+            textStyle: Theme.of(context).textTheme.titleSmall!,
+          ),
           const SizedBox(
             height: 10,
           ),

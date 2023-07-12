@@ -5,7 +5,7 @@ import 'package:designer_hires/custom_widgets/ui_portfolio_section.dart';
 import 'package:designer_hires/custom_widgets/profile_section.dart';
 import 'package:designer_hires/custom_widgets/search_bar.dart';
 import 'package:designer_hires/models/designer.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide SearchBar;
 
 class DesktopScreen extends StatelessWidget {
   const DesktopScreen({super.key, required this.designer});
